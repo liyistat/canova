@@ -1,0 +1,18 @@
+Package: canova
+Type: Package
+Title: CANOVA: Efficient test for nonlinear dependence of two continuous variables
+Version: 0.1.0
+Authors@R: person("Li", "Yi", email = "liyistat@gmail.com",
+                  role = c("aut", "cre"))
+Description: Testing dependence/correlation of two variables is one of the fundamental tasks in statistics. In this work,
+    we proposed a new way of testing nonlinear dependence between two continuous variables (X and Y).
+    We addressed this research question by using CANOVA (continuous analysis of variance) and developed its R package CANOVA.
+    The C++ version of CANOVA software are also available at https://sourceforge.net/projects/canova/
+    In the CANOVA framework, we first defined a neighborhood for each data point related to its X value, and then calculated
+    the variance of the Y value within the neighborhood. Finally, we performed permutations to evaluate the significance of
+    the observed values within the neighborhood variance.
+Imports:
+    snow
+License: GPL-2
+LazyData: TRUE
+RoxygenNote: 5.0.1
