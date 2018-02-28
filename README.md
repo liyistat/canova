@@ -1,10 +1,3 @@
-# Recommended canova package installation
-```{r}
-source("https://raw.githubusercontent.com/liyistat/install_github_package/master/install_github.R");
-install_github("liyistat/canova")
-library(canova);
-```
-
 # Install canova package by devtools
 ```{r}
 install.packages(c("snow"));
